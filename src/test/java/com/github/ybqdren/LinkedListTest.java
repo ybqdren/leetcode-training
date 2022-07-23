@@ -4,11 +4,54 @@ import com.github.ybqdren.linkedlist.ListNode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * created by ybqdren
  */
 public class LinkedListTest {
+
+
+    @Test
+    public void testlc141_2(){
+        ListNode listNode = new ListNode();
+        listNode.val = 1;
+        ListNode next  = new ListNode();
+        next.val = 2;
+        listNode.next = next;
+        ListNode next1 = new ListNode();
+        next1.val = 3;
+        next.next = next1;
+        ListNode next2 = new ListNode();
+        next2.val = 4;
+        next1.next = next2;
+        // 环路： 4->1
+        next2.next = listNode;
+
+        lc141 lc141 = new lc141();
+        boolean hasCycle = lc141.hasCycle2(listNode);
+        assertTrue(hasCycle);
+    }
+    @Test
+    public void testlc141(){
+        ListNode listNode = new ListNode();
+        listNode.val = 1;
+        ListNode next  = new ListNode();
+        next.val = 2;
+        listNode.next = next;
+        ListNode next1 = new ListNode();
+        next1.val = 3;
+        next.next = next1;
+        ListNode next2 = new ListNode();
+        next2.val = 4;
+        next1.next = next2;
+        // 环路： 4->1
+        next2.next = listNode;
+
+        lc141 lc141 = new lc141();
+        boolean hasCycle = lc141.hasCycle(listNode);
+        assertTrue(hasCycle);
+    }
 
 
     @Test
