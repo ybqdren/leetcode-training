@@ -1,4 +1,4 @@
-package com.github.ybqdren;
+package com.github.ybqdren.lc;
 
 import java.util.Random;
 

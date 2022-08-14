@@ -1,6 +1,6 @@
 package com.github.ybqdren;
 
-import org.junit.jupiter.api.Assertions;
+import com.github.ybqdren.lc.lc704;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;

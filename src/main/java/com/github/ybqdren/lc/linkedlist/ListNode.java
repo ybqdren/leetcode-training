@@ -1,6 +1,4 @@
-package com.github.ybqdren.linkedlist;
-
-import com.github.ybqdren.lc206;
+package com.github.ybqdren.lc.linkedlist;
 
 /**
  * created by ybqdren

@@ -1,6 +1,9 @@
 package com.github.ybqdren;
 
-import com.github.ybqdren.linkedlist.ListNode;
+import com.github.ybqdren.lc.lc141;
+import com.github.ybqdren.lc.lc206;
+import com.github.ybqdren.lc.lc24;
+import com.github.ybqdren.lc.linkedlist.ListNode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

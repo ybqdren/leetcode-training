@@ -1,6 +1,6 @@
-package com.github.ybqdren;
+package com.github.ybqdren.lc;
 
-import com.github.ybqdren.linkedlist.ListNode;
+import com.github.ybqdren.lc.linkedlist.ListNode;
 
 import java.util.HashSet;
 

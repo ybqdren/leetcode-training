@@ -1,4 +1,4 @@
-package com.github.ybqdren;
+package com.github.ybqdren.lc;
 
 /**
  * 不用去单独考虑=mid的情况
