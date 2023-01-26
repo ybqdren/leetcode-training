@@ -6,12 +6,12 @@ import java.util.Arrays;
  * @author ybqdren
  * @date 1/26/2023
  */
-public class lc16663 {
+public class lc1663 {
 
     public static void main(String[] args) {
         int n = 3;
         int k = 27;
-        String smallestString = new lc16663().getSmallestString(n, k);
+        String smallestString = new lc1663().getSmallestString(n, k);
         System.out.println(smallestString);
     }
 
